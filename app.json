@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "IISO-4210 - Jose Sandoval",
+    "name": "IISO-4210",
     "slug": "IISO-4210",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -23,6 +23,9 @@
     "packagerOpts": {
       "sourceExts": ["js", "json", "ts", "tsx", "vue"],
       "config": "metro.config.js"
+    },
+    "android": {
+      "package": "com.vuenative.example"
     }
   }
 }

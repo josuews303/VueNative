@@ -18,8 +18,8 @@ import DatabaseScreen from "./screens/Database.vue";
 const Tabs = createMaterialTopTabNavigator({
   Camera: HomeScreen,
   API: WebServiceScreen,
-  Map: GeolocationScreen,
-  DB: DatabaseScreen
+  //Map: GeolocationScreen,
+  //DB: DatabaseScreen
 });
 
 const StackNavigator = createStackNavigator(
@@ -39,14 +39,14 @@ const StackNavigator = createStackNavigator(
     defaultNavigationOptions: {
       // headerShown: false,
       gestureEnabled: false,
-      title: "IISO-4210 - Jose Sandoval",
+      title: "Implementación de los videos de Jose",
       headerTitleStyle: {
         textAlign: "center",
         alignSelf: "center",
         color: "white"
       },
       headerStyle: {
-        backgroundColor: "#0288D1"
+        backgroundColor: "black"
       }
     }
   }
